@@ -3,6 +3,7 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Home from "./pages/home";
 import Header from "./components/header";
 import Footer from "./components/footer";
+import StudentButtons from "./pages/studentButtons";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <BrowserRouter>
             <Routes>
               <Route path='/' element={<Home />}/>
+              <Route path='/:student' element={<StudentButtons />}/>
             </Routes>
         </BrowserRouter>
       </div>
