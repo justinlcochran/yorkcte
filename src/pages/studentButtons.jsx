@@ -29,6 +29,21 @@ function StudentButtons() {
             textColor: 'white',
             title: 'Post a string',
             value: 'Programming is for nerds.',
+        },
+        {
+            color: '#720e19',
+            textColor: 'white',
+            title: 'Post an array',
+            value: ['Hockey', 'Guitar', 'Mayday Parade', 'Final Fantasy IX'],
+        },
+        {
+            color: '#2d050a',
+            textColor: 'white',
+            title: 'Post an object',
+            value: {
+                state: 'Colorado',
+                founded: 1876,
+            },
         }
     ]
 
