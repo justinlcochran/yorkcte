@@ -3,7 +3,7 @@ import {useNavigate} from 'react-router-dom';
 
 function Home() {
     let navigate = useNavigate()
-    const students = ['Daniel', 'Fabian', 'Isaac', 'Jonathan', 'Mark', 'Nevaeh']
+    const students = ['Daniel', 'Fabian', 'Isaac', 'Jonathan', 'Mark', 'Nevaeh', 'Cochran']
 
     return (
         <div className={'flex flex-col text-xl overflow-auto m-8 rounded-xl border-white border-2'}>
