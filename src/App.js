@@ -4,20 +4,21 @@ import Home from "./pages/home";
 import Header from "./components/header";
 import Footer from "./components/footer";
 import StudentButtons from "./pages/studentButtons";
+import PictureBooks from "./pages/pictureBooks";
 
 function App() {
   return (
       <div className={'h-[100vh] flex flex-col text-center'}>
-      <Header />
+      {/*<Header />*/}
       <div className="grow max-h-full overflow-auto">
         <BrowserRouter>
             <Routes>
-              <Route path='/' element={<Home />}/>
+              <Route path='/' element={<PictureBooks />}/>
               <Route path='/:student' element={<StudentButtons />}/>
             </Routes>
         </BrowserRouter>
       </div>
-      <Footer/>
+      {/*<Footer/>*/}
       </div>
   );
 }
